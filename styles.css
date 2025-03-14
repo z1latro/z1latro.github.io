@@ -1,15 +1,16 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    text-align: center;
     background-color: #f4f4f4;
+    color: #333;
 }
 
 header {
-    background: #333;
+    background: #222;
     color: white;
-    padding: 20px;
+    text-align: center;
+    padding: 40px 20px;
 }
 
 nav ul {
@@ -22,7 +23,6 @@ nav ul {
 }
 
 nav ul li {
-    margin: 0;
     padding: 15px;
 }
 
@@ -34,15 +34,37 @@ nav ul li a {
 
 section {
     padding: 50px 20px;
+    text-align: center;
 }
 
-#certifications .certificate {
+h2 {
+    color: #222;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: #ddd;
+    padding: 10px;
+    margin: 5px;
     display: inline-block;
+}
+
+#certifications {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.certificate {
     margin: 20px;
     text-align: center;
 }
 
-#certifications img {
+.certificate img {
     width: 250px;
     height: auto;
     border-radius: 10px;
@@ -50,8 +72,9 @@ section {
 }
 
 footer {
-    background: #333;
+    background: #222;
     color: white;
+    text-align: center;
     padding: 10px;
     margin-top: 20px;
 }
